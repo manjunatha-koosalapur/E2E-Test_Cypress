@@ -1,3 +1,5 @@
+/// ＜reference types="Cypress" /＞
+
 import homePage from "../elements/pages/homePage"
 import loginPage from "../elements/pages/loginPage"
 

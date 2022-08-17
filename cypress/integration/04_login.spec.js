@@ -1,3 +1,5 @@
+/// ＜reference types="Cypress" /＞
+
 describe('User Login', () => {
     beforeEach(() => {
         cy.visit ('https://qa-practice.netlify.app/')

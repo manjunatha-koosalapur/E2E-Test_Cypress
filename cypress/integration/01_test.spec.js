@@ -1,3 +1,5 @@
+/// ＜reference types="Cypress" /＞
+
 describe.skip('test suite', () => {
     it('assert url', function(){
         cy.visit ('https://qa-practice.netlify.app/')
