@@ -5,6 +5,5 @@ export default class homePage {
 
     getLoginSideMenu (){
         return cy.get('#login')
-
     }
 }
