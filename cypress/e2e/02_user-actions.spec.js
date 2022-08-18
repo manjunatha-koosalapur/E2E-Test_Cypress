@@ -1,6 +1,6 @@
  /// ＜reference types="Cypress" /＞
 
-describe.skip('User actions test suite', () => {
+describe('User actions test suite', () => {
     beforeEach(() => {
         cy.visit ('https://qa-practice.netlify.app/')
         cy.get('#forms').click()
