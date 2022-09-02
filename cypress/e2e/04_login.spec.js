@@ -1,12 +1,12 @@
 /// ＜reference types="Cypress" /＞
 
-describe('User Login', () => {
+describe('User Login test suite', () => {
     beforeEach(() => {
         cy.visit ('https://qa-practice.netlify.app/')
         cy.get('#forms').click()
     })
 
-        it('User Login', function(){
+        it('User Login test', function(){
             // cy.visit ('https://qa-practice.netlify.app/')
             // cy.get('#forms').click()
             cy.get('#login').click();
